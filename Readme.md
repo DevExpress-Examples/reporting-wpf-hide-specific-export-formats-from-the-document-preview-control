@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[MainWindow.xaml](./CS/HideExportFormats/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/HideExportFormats/MainWindow.xaml.vb))**
+* [MainWindow.xaml.cs](./CS/HideExportFormats/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/HideExportFormats/MainWindow.xaml.vb))
+<!-- default file list end -->
 # How to hide specific export formats from the Document Preview Control 
 
 
