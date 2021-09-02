@@ -17,24 +17,27 @@ Imports System.Windows.Shapes
 
 Namespace HideExportFormats
 
-    Partial Public Class MainWindow
-        Inherits Window
+	Partial Public Class MainWindow
+		Inherits Window
 
-        Private link As SimpleLink
-        Public Sub New()
-            InitializeComponent()
+		Private link As SimpleLink
+		Public Sub New()
+			InitializeComponent()
 
-            AddHandler preview.Loaded, AddressOf OnPreviewLoaded
-        End Sub
+			AddHandler preview.Loaded, AddressOf OnPreviewLoaded
+		End Sub
 
-        Private Sub OnPreviewLoaded(ByVal sender As Object, ByVal e As RoutedEventArgs)
-            Dim data() As String = CultureInfo.CurrentCulture.DateTimeFormat.DayNames
+		Private Sub OnPreviewLoaded(ByVal sender As Object, ByVal e As RoutedEventArgs)
+			Dim data() As String = CultureInfo.CurrentCulture.DateTimeFormat.DayNames
 
-            link = New SimpleLink With {.DetailTemplate = DirectCast(Resources("dayNameTemplate"), DataTemplate), .DetailCount = data.Length}
-            AddHandler link.CreateDetail, Sub(s, args) args.Data = data(args.DetailIndex)
+			link = New SimpleLink With {
+				.DetailTemplate = DirectCast(Resources("dayNameTemplate"), DataTemplate),
+				.DetailCount = data.Length
+			}
+			AddHandler link.CreateDetail, Sub(s, args) args.Data = data(args.DetailIndex)
 
-            preview.DocumentSource = link
-            link.CreateDocument()
-        End Sub
-    End Class
+			preview.DocumentSource = link
+			link.CreateDocument()
+		End Sub
+	End Class
 End Namespace
