@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
         xmlns:dxp="http://schemas.devexpress.com/winfx/2008/xaml/printing"
-        xmlns:printing="clr-namespace:DevExpress.XtraPrinting;assembly=DevExpress.Printing.v22.2.Core"
+        xmlns:printing="clr-namespace:DevExpress.XtraPrinting;assembly=DevExpress.Printing.v24.2.Core"
         xmlns:local="clr-namespace:HideExportFormats"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="850">
