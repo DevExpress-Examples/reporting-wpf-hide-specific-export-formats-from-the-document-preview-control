@@ -17,7 +17,7 @@ This example illustrates how to hide particular export formats from the drop-dow
 
 * [Customize the Report Designer Toolbar](https://docs.devexpress.com/XtraReports/116500/desktop-reporting/wpf-reporting/end-user-report-designer-for-wpf/api-and-customization/customize-the-report-designer-toolbar)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-wpf-hide-specific-export-formats-from-the-document-preview-control&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-wpf-hide-specific-export-formats-from-the-document-preview-control&~~~was_helpful=no)
 
